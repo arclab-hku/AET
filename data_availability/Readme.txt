@@ -6,9 +6,9 @@
 
 "4-arm_max_tip_payload"		           - for replicating Fig. 4d in the manuscript.
 
-"5-XOZ_workspace_and_dexterity_rate" - for replicating Fig. 4e in the manuscript.
+"5-uav-state-force-control"		       - for replicating Fig. 4e in the manuscript.
 
-"6-uav-state-force-control"		       - for replicating Fig. 4f in the manuscript.
+"6-XOZ_workspace_and_dexterity_rate" - for replicating Fig. 4f in the manuscript.
 
 "7-arm_single_config_evaluation" 	   - for replicating Fig. 5a in the manuscript.
 
@@ -34,6 +34,15 @@
 
 "18-flight_ctrl_evaluate_eight" 	   - for replicating Fig. 7e in the manuscript.
 
+"19-random_traj_evaluation" 	       - for replicating Fig. 10a in the manuscript.
+
+"20-wrap_pillar_evaluation" 	       - for replicating Fig. 10b in the manuscript.
+
+"21-crevice_crossing_evaluation"     - for replicating Fig. 10c in the manuscript.
+
+"22-drawing_arclab" 	               - for replicating Fig. 10d in the manuscript.
+
+"23-ring_navigate" 	                 - for replicating Fig. 10e in the manuscript.
 
 
 
