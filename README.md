@@ -9,3 +9,6 @@ $ roslaunch kinematics_model visualize.launch
 $ rosrun kinematics_model model_visualization
 
 
+---
+
+![image](https://github.com/arclab-hku/AET/blob/master/code_availability/demo.gif)
