@@ -1,0 +1,422 @@
+<?xml version="1.0"?>
+<robot name="continuum_arm">
+<link name="base_link"/>
+
+
+
+
+
+<link name="uav">
+<visual>
+<geometry>
+<mesh filename="package://kinematics_model/urdf/uav.STL" scale="0.01 0.01 0.01 "/>
+</geometry>
+<material name="black">
+<color rgba="0 0 0 1"/>
+</material>
+</visual>
+</link>
+
+<joint name="uav_base" type="floating">
+<parent link="base_link"/>
+<child link="uav"/>
+<origin rpy="0 1.5707963 0" xyz="0 0 0"/>
+</joint>
+
+
+<link name="S0L0">
+<visual>
+<geometry>
+<box size="1.5 1.5 0.06"/>
+<origin rpy="0 0 0" xyz="0 0 0"/>
+</geometry>
+<material name="black">
+<color rgba="0 0 0 1"/>
+</material>
+</visual>
+</link>
+
+<joint name="S0J0" type="floating">
+<parent link="uav"/>
+<child link="S0L0"/>
+</joint>
+
+
+
+
+<!-- first section's disks -->
+
+
+<link name="S0L1">
+<visual>
+<geometry>
+<cylinder length="0.03" radius="0.25"/>
+<origin rpy="0 0 0" xyz="0 0 0"/>
+</geometry>
+<material name="green">
+<color rgba="0 1 0 1"/>
+</material>
+</visual>
+</link>
+
+<joint name="S0J1" type="floating">
+<parent link="base_link"/>
+<child link="S0L1"/>
+</joint>
+
+<link name="S0L2">
+<visual>
+<geometry>
+<cylinder length="0.03" radius="0.25"/>
+<origin rpy="0 0 0" xyz="0 0 0"/>
+</geometry>
+<material name="green">
+<color rgba="0 1 0 1"/>
+</material>
+</visual>
+</link>
+
+<joint name="S0J2" type="floating">
+<parent link="base_link"/>
+<child link="S0L2"/>
+</joint>
+
+<link name="S0L3">
+<visual>
+<geometry>
+<cylinder length="0.03" radius="0.25"/>
+<origin rpy="0 0 0" xyz="0 0 0"/>
+</geometry>
+<material name="green">
+<color rgba="0 1 0 1"/>
+</material>
+</visual>
+</link>
+
+<joint name="S0J3" type="floating">
+<parent link="base_link"/>
+<child link="S0L3"/>
+</joint>
+
+<link name="S0L4">
+<visual>
+<geometry>
+<cylinder length="0.03" radius="0.25"/>
+<origin rpy="0 0 0" xyz="0 0 0"/>
+</geometry>
+<material name="green">
+<color rgba="0 1 0 1"/>
+</material>
+</visual>
+</link>
+
+<joint name="S0J4" type="floating">
+<parent link="base_link"/>
+<child link="S0L4"/>
+</joint>
+
+<link name="S0L5">
+<visual>
+<geometry>
+<cylinder length="0.03" radius="0.25"/>
+<origin rpy="0 0 0" xyz="0 0 0"/>
+</geometry>
+<material name="green">
+<color rgba="0 1 0 1"/>
+</material>
+</visual>
+</link>
+
+<joint name="S0J5" type="floating">
+<parent link="base_link"/>
+<child link="S0L5"/>
+</joint>
+
+<link name="S0L6">
+<visual>
+<geometry>
+<cylinder length="0.03" radius="0.25"/>
+<origin rpy="0 0 0" xyz="0 0 0"/>
+</geometry>
+<material name="green">
+<color rgba="0 1 0 1"/>
+</material>
+</visual>
+</link>
+
+<joint name="S0J6" type="floating">
+<parent link="base_link"/>
+<child link="S0L6"/>
+</joint>
+
+<link name="S0L7">
+<visual>
+<geometry>
+<cylinder length="0.03" radius="0.25"/>
+<origin rpy="0 0 0" xyz="0 0 2.1"/>
+</geometry>
+<material name="green">
+<color rgba="0 1 0 1"/>
+</material>
+</visual>
+</link>
+
+<joint name="S0J7" type="floating">
+<parent link="base_link"/>
+<child link="S0L7"/>
+</joint>
+
+<!-- first section's disks -->
+
+
+
+<!-- second section's disks -->
+
+<link name="S1L1">
+<visual>
+<geometry>
+<cylinder length="0.03" radius="0.25"/>
+<origin rpy="0 0 0" xyz="0 0 0"/>
+</geometry>
+<material name="blue">
+<color rgba="0 0 1 1"/>
+</material>
+</visual>
+</link>
+
+<joint name="S1J1" type="floating">
+<parent link="base_link"/>
+<child link="S1L1"/>
+</joint>
+
+<link name="S1L2">
+<visual>
+<geometry>
+<cylinder length="0.03" radius="0.25"/>
+<origin rpy="0 0 0" xyz="0 0 0"/>
+</geometry>
+<material name="blue">
+<color rgba="0 0 1 1"/>
+</material>
+</visual>
+</link>
+
+<joint name="S1J2" type="floating">
+<parent link="base_link"/>
+<child link="S1L2"/>
+</joint>
+
+<link name="S1L3">
+<visual>
+<geometry>
+<cylinder length="0.03" radius="0.25"/>
+<origin rpy="0 0 0" xyz="0 0 0"/>
+</geometry>
+<material name="blue">
+<color rgba="0 0 1 1"/>
+</material>
+</visual>
+</link>
+
+<joint name="S1J3" type="floating">
+<parent link="base_link"/>
+<child link="S1L3"/>
+</joint>
+
+<link name="S1L4">
+<visual>
+<geometry>
+<cylinder length="0.03" radius="0.25"/>
+<origin rpy="0 0 0" xyz="0 0 0"/>
+</geometry>
+<material name="blue">
+<color rgba="0 0 1 1"/>
+</material>
+</visual>
+</link>
+
+<joint name="S1J4" type="floating">
+<parent link="base_link"/>
+<child link="S1L4"/>
+</joint>
+
+<link name="S1L5">
+<visual>
+<geometry>
+<cylinder length="0.03" radius="0.25"/>
+<origin rpy="0 0 0" xyz="0 0 0"/>
+</geometry>
+<material name="blue">
+<color rgba="0 0 1 1"/>
+</material>
+</visual>
+</link>
+
+<joint name="S1J5" type="floating">
+<parent link="base_link"/>
+<child link="S1L5"/>
+</joint>
+
+<link name="S1L6">
+<visual>
+<geometry>
+<cylinder length="0.03" radius="0.25"/>
+<origin rpy="0 0 0" xyz="0 0 0"/>
+</geometry>
+<material name="blue">
+<color rgba="0 0 1 1"/>
+</material>
+</visual>
+</link>
+
+<joint name="S1J6" type="floating">
+<parent link="base_link"/>
+<child link="S1L6"/>
+</joint>
+
+<link name="S1L7">
+<visual>
+<geometry>
+<cylinder length="0.03" radius="0.25"/>
+<origin rpy="0 0 0" xyz="0 0 2.1"/>
+</geometry>
+<material name="blue">
+<color rgba="0 0 1 1"/>
+</material>
+</visual>
+</link>
+
+<joint name="S1J7" type="floating">
+<parent link="base_link"/>
+<child link="S1L7"/>
+</joint>
+
+<!-- second section's disks -->
+
+
+
+<!-- third section's disks -->
+
+<link name="S2L1">
+<visual>
+<geometry>
+<cylinder length="0.03" radius="0.25"/>
+<origin rpy="0 0 0" xyz="0 0 0"/>
+</geometry>
+<material name="red">
+<color rgba="1 0 0 1"/>
+</material>
+</visual>
+</link>
+
+<joint name="S2J1" type="floating">
+<parent link="base_link"/>
+<child link="S2L1"/>
+</joint>
+
+<link name="S2L2">
+<visual>
+<geometry>
+<cylinder length="0.03" radius="0.25"/>
+<origin rpy="0 0 0" xyz="0 0 0"/>
+</geometry>
+<material name="red">
+<color rgba="1 0 0 1"/>
+</material>
+</visual>
+</link>
+
+<joint name="S2J2" type="floating">
+<parent link="base_link"/>
+<child link="S2L2"/>
+</joint>
+
+<link name="S2L3">
+<visual>
+<geometry>
+<cylinder length="0.03" radius="0.25"/>
+<origin rpy="0 0 0" xyz="0 0 0"/>
+</geometry>
+<material name="red">
+<color rgba="1 0 0 1"/>
+</material>
+</visual>
+</link>
+
+<joint name="S2J3" type="floating">
+<parent link="base_link"/>
+<child link="S2L3"/>
+</joint>
+
+<link name="S2L4">
+<visual>
+<geometry>
+<cylinder length="0.03" radius="0.25"/>
+<origin rpy="0 0 0" xyz="0 0 0"/>
+</geometry>
+<material name="red">
+<color rgba="1 0 0 1"/>
+</material>
+</visual>
+</link>
+
+<joint name="S2J4" type="floating">
+<parent link="base_link"/>
+<child link="S2L4"/>
+</joint>
+
+<link name="S2L5">
+<visual>
+<geometry>
+<cylinder length="0.03" radius="0.25"/>
+<origin rpy="0 0 0" xyz="0 0 0"/>
+</geometry>
+<material name="red">
+<color rgba="1 0 0 1"/>
+</material>
+</visual>
+</link>
+
+<joint name="S2J5" type="floating">
+<parent link="base_link"/>
+<child link="S2L5"/>
+</joint>
+
+<link name="S2L6">
+<visual>
+<geometry>
+<cylinder length="0.03" radius="0.25"/>
+<origin rpy="0 0 0" xyz="0 0 0"/>
+</geometry>
+<material name="red">
+<color rgba="1 0 0 1"/>
+</material>
+</visual>
+</link>
+
+<joint name="S2J6" type="floating">
+<parent link="base_link"/>
+<child link="S2L6"/>
+</joint>
+
+<link name="S2L7">
+<visual>
+<geometry>
+<cylinder length="0.03" radius="0.25"/>
+<origin rpy="0 0 0" xyz="0 0 2.1"/>
+</geometry>
+<material name="red">
+<color rgba="1 0 0 1"/>
+</material>
+</visual>
+</link>
+
+<joint name="S2J7" type="floating">
+<parent link="base_link"/>
+<child link="S2L7"/>
+</joint>
+
+
+<!-- third section's disks -->
+
+</robot>
