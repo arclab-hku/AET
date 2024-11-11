@@ -2,22 +2,22 @@ cmake_minimum_required(VERSION 2.8.3)
 project(kinematics_model)
 add_compile_options(-std=c++11)
 
-
+   
 find_package(Eigen3 REQUIRED)
 find_package(catkin REQUIRED COMPONENTS
-  roscpp
-  visualization_msgs
-  tf
-  roslib
-  std_msgs
-  message_generation
-  interactive_markers
+   roscpp
+   visualization_msgs
+   tf
+   roslib
+   std_msgs
+   message_generation
+   interactive_markers
   
 )
 catkin_package(
-  INCLUDE_DIRS include
-  CATKIN_DEPENDS roscpp roslib message_runtime std_msgs
-  LIBRARIES kinematics_model
+   INCLUDE_DIRS include
+   CATKIN_DEPENDS roscpp roslib message_runtime std_msgs
+   LIBRARIES kinematics_model
 )
 
 
