@@ -1,7 +1,0 @@
-<launch>
-
-     <arg name="gui" default="False" />
-        <param name="robot_description" textfile="$(find kinematics_model)/urdf/robot_model.urdf"/>
-    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find kinematics_model)/rviz/model_visualization.rviz"/>
-
-</launch>
