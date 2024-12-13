@@ -1,4 +1,4 @@
-Copy the folder "kinematics_model" into your ros workspace.
+Copy the folder "code_availability/kinematics_model" into your ros workspace.
 
  
 # 1. Prerequisites
