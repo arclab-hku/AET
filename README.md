@@ -1,21 +1,21 @@
 Copy the folder "kinematics_model" into your ros workspace.
 
----
+-
 ### 1. Prerequisites
 
-Ubuntu $\ge$ 18.04 
+Ubuntu >= 18.04 
 
-ROS $\ge$ Melodic
+ROS >= Melodic
 
 ---
 ### 2. Build
-`catkin_make`
+$ `catkin_make`
 
-`source devel/setup.bash`
+$ `source devel/setup.bash`
 
-`roslaunch kinematics_model visualize.launch`
+$ `roslaunch kinematics_model visualize.launch`
 
-`rosrun kinematics_model model_visualization`
+$ `rosrun kinematics_model model_visualization`
 
 ---
 ### 3. Demo
