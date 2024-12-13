@@ -1,6 +1,6 @@
 Copy the folder "kinematics_model" into your ros workspace.
 
--
+--
 ### 1. Prerequisites
 
 Ubuntu >= 18.04 
