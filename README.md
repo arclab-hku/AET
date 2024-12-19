@@ -1,4 +1,6 @@
-### Publication:
+![image](https://github.com/arclab-hku/AET/blob/master/code_availability/cover_fig.jpg)
+
+# Publication:
 
 Rui Peng, Yu Wang, Minghao Lu, Peng Lu, "A dexterous and compliant aerial continuum manipulator for cluttered and constrained environments,” Nature Communications, 2024, https://doi.org/10.1038/s41467-024-55157-2. (Accepted on December 2, 2024, IF: 14.7)
 
@@ -26,6 +28,7 @@ $ `rosrun kinematics_model model_visualization`
 
 ![image](https://github.com/arclab-hku/AET/blob/master/code_availability/demo.gif)
 
+![image](https://github.com/arclab-hku/AET/blob/master/code_availability/flying_AET.gif)
 
 # 4. License
 The source code of this ROS package is released under [GPLv2](https://www.gnu.org/licenses/) license. We only allow it free for academic usage with several patents. 
