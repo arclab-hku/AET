@@ -26,7 +26,7 @@ $ `rosrun kinematics_model model_visualization`
 
 # 3. Demo
 
-![image](https://github.com/arclab-hku/AET/blob/master/code_availability/demo.gif)
+![image](https://github.com/arclab-hku/AET/blob/master/code_availability/code_demo.gif)
 
 ![image](https://github.com/arclab-hku/AET/blob/master/code_availability/flying_AET.gif)
 
