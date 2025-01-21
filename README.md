@@ -46,10 +46,7 @@ For any technical issues, please contact me via email pengrui-rio@connect.hku.hk
 # 5. Citation
    
     @Article{Peng2025,
-    author={Peng, Rui
-    and Wang, Yu
-    and Lu, Minghao
-    and Lu, Peng},
+    author={Rui Peng, Yu Wang, Minghao Lu and Peng Lu},
     title={A dexterous and compliant aerial continuum manipulator for cluttered and constrained environments},
     journal={Nature Communications},
     year={2025},
