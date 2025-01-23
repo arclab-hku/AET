@@ -3,7 +3,7 @@
 
 # Publication:
 
-R. Peng, Y. Wang, M. Lu, and P. Lu, “A dexterous and compliant aerial continuum manipulator for cluttered and constrained environments,” Nature Communications, vol. 16, no. 1, p. 889, Jan. 2025, doi: 10.1038/s41467-024-55157-2.
+R. Peng, Y. Wang, M. Lu, and P. Lu, “A dexterous and compliant aerial continuum manipulator for cluttered and constrained environments,” Nature Communications, vol. 16, no. 1, p. 889, Jan. 2025, doi: [10.1038/s41467-024-55157-2](https://www.nature.com/articles/s41467-024-55157-2).
 
 
 **Bilibili:**   https://www.bilibili.com/video/BV1k9fGYhE2Z
